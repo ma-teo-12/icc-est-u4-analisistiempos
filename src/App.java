@@ -8,7 +8,7 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         SortMethods metodos = new SortMethods();
-        int tamanio = 1000;
+        int tamanio = 500000;
         int[] array = generate(tamanio);
         int[] arrayBubble = Arrays.copyOf(array, tamanio);
         int[] arrayBubbleAvz = Arrays.copyOf(array, tamanio);

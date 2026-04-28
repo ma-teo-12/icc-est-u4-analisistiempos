@@ -18,7 +18,7 @@ public class BenchMarking {
         // -CALCULAR TIEMPO FIN
             long fin = System.nanoTime();
         // -CALCULAR TIEMPO EN EJECUCION
-            long duracion = fin - inicio;
+            double duracion = (fin - inicio)/1_000_000_000.0;
         // -DEVOLVER RESULTADOS 
             Results results = new Results(duracion);
             return results;
